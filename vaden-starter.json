@@ -1,0 +1,26 @@
+{
+
+  "dependenciesPath": "/v1/generate/dependencies",
+  "createZipPath": "/v1/generate/create",
+  "downloadZipPath": "/resource/uploads/{urlZip}?name={projectName}.zip",
+
+  "defaultProjectName": "demo",
+
+  "dartVersion": {
+    "default": "3.7.2",
+    "values": [
+      {
+        "id": "3.7.2",
+        "name": "3.7.2"
+      },
+      {
+        "id": "3.7.1",
+        "name": "3.7.1"
+      },
+      {
+        "id": "3.6.0",
+        "name": "3.6.0"
+      }
+    ]
+  }
+}
